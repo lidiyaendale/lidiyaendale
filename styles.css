@@ -1,0 +1,185 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+/* Header Styles */
+header {
+  background: #333;
+  color: #fff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #77aaff 3px solid;
+}
+
+header h1 {
+  text-align: center;
+  margin: 0;
+  font-size: 36px;
+}
+
+header .tagline {
+  text-align: center;
+  font-size: 18px;
+  color: #77aaff;
+}
+
+/* Navigation Styles */
+nav {
+  background: #444;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav ul {
+  padding: 0;
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #77aaff;
+}
+
+/* Section Styles */
+section {
+  padding: 20px 0;
+}
+
+section h2 {
+  color: #333;
+  border-bottom: 2px solid #77aaff;
+  padding-bottom: 10px;
+  font-size: 24px;
+}
+
+section p {
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+section ul {
+  list-style: none;
+  padding: 0;
+}
+
+section ul li {
+  margin: 10px 0;
+}
+
+section ul li a {
+  color: #77aaff;
+  text-decoration: none;
+  transition: text-decoration 0.3s ease;
+}
+
+section ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Footer Styles */
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 20px;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* Media Queries for Responsiveness */
+@media screen and (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+
+  header h1 {
+    font-size: 28px;
+  }
+
+  header .tagline {
+    font-size: 16px;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  section h2 {
+    font-size: 20px;
+  }
+
+  section p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  header h1 {
+    font-size: 24px;
+  }
+
+  header .tagline {
+    font-size: 14px;
+  }
+
+  nav ul li {
+    margin: 5px 0;
+  }
+
+  section h2 {
+    font-size: 18px;
+  }
+
+  section p {
+    font-size: 12px;
+  }
+}
+
+#bio{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.bio-img img{
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+}
+
+
+
+
+
+
+
+
+
